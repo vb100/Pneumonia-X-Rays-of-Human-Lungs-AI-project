@@ -1,0 +1,122 @@
+/* -----------------------------------------------------------------------*/
+/*BASIC SETUP*/
+/* -----------------------------------------------------------------------*/
+
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Play', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {                                             /*clear float after an element*/
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    margin: 0;
+}
+
+/* -----------------------------------------------------------------------*/
+/*LINKS*/
+/* -----------------------------------------------------------------------*/
+
+a:link,
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    padding-bottom: 1px;
+}
+
+a:hover,
+a:active {
+    color: #cccccc;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+/* -----------------------------------------------------------------------*/
+/*DEFAULT PART*/
+/* -----------------------------------------------------------------------*/
+
+.img-preview {
+    width: 256px;
+    height: 256px;
+    position: relative;
+    border: 5px solid #cccccc;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    margin-bottom: 1em;    
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-preview:hover {
+    border: 5px solid #000000;
+    -webkit-transition: all 0.5s ease;
+     transition: all 0.5s ease;  
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.upload-label{
+    display: inline-block;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 12px 28px;
+    background: #ffffff;
+    color: #000000;
+    font-size: 1em;
+    transition: all .4s;
+    cursor: pointer;
+    border: 2px solid #cccccc;
+}
+
+.upload-label:hover{
+    background: #000000;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.very_main{
+    margin: auto;
+    text-align: center;
+}
+
+.final_word{
+    position: relative;
+    margin-top: 12px;
+}
