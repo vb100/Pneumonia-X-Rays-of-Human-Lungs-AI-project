@@ -10,5 +10,7 @@ Important part is to understand how to upload an image file to the server (Googl
 Some additional work with HTML, CSS and Javascript and the model frontend looks bright, simply and user friendly, even compatible with mobile phones.
 
 Link to web application: https://flaskdeploy-xray.appspot.com/
+
 Youtube link: https://youtu.be/XolgXocLOd8
+
 LinkedIn profile: https://www.linkedin.com/in/bielinskas/
