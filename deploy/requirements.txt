@@ -100,7 +100,7 @@ pywinpty==0.5.4
 PyYAML==3.13
 pyzmq==17.1.2
 qtconsole==4.4.1
-requests==2.19.1
+requests==2.20.0
 requests-oauthlib==1.2.0
 resampy==0.2.1
 retrying==1.3.3
