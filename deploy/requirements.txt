@@ -2,7 +2,7 @@ absl-py==0.7.1
 astor==0.7.1
 audioread==2.1.6
 backcall==0.1.0
-bleach==2.1.4
+bleach==3.3.0
 boto3==1.9.151
 botocore==1.12.151
 cachetools==2.1.0
