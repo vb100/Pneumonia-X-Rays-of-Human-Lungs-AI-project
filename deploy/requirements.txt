@@ -68,7 +68,7 @@ notebook==5.6.0
 numba==0.42.0
 numpy==1.16.1
 oauthlib==3.1.0
-opencv-python==4.1.0.25
+opencv-python==4.1.1.26
 pandocfilters==1.4.2
 parso==0.3.1
 patsy==0.5.0
