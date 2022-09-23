@@ -78,7 +78,7 @@ Pillow==6.0.0
 plotly==3.2.1
 prometheus-client==0.3.1
 prompt-toolkit==1.0.15
-protobuf==3.7.1
+protobuf==3.18.3
 psycopg2-binary==2.7.5
 py2exe==0.9.2.2
 pyasn1==0.4.7
